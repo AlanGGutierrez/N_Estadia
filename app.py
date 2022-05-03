@@ -123,7 +123,7 @@ if total_Unidades_En_Planta == 0:
 else:
     promedio_Zona_EnPlanta = round(total_horas_Zona_EnPlanta / total_Unidades_En_Planta,1)
 
-AgGrid(df)
+#AgGrid(df)
 
 #-------------------------------Top 5----------------------
 df_Top_General = df.loc[df['zona_Espera'] > 0]
@@ -137,7 +137,7 @@ for i in range(5):
         conti = conti + 1
         df_Top.loc[tam_df] = [f'Sin datos{conti}', 0, 0]
         tamdf = tamdf + 1
-st.dataframe(df_Top)
+#st.dataframe(df_Top)
 
 #-----------------Placas Top 5-------------
 placasT1 = df_Top_General.loc[df_Top_General["GeoCerca"] == df_Top['GeoCerca'][0], ["Matricula1"]]
