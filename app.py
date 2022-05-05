@@ -92,7 +92,7 @@ img_control_Tower = Image.open("images/ControlTowerwhite.png")
 
 
 #-----Read onedrive Excel-------------
-onedrive_link = "https://1drv.ms/x/s!AsyQPQRa2P2OjH24em4_r9PBRIKx?e=fZyqf9"
+onedrive_link = "https://1drv.ms/x/s!ApdD4Dyt8O2AbpEVNVewNSlZo3A?e=MfqoVR"
 onedrive_directlink = create_onedrive_directdownload(onedrive_link)
 
 #--------------------------------DF--------------------------
